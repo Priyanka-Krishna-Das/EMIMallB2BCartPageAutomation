@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="cartSuite">
+<!--<listeners>
+     <listener class-name="EMIMallB2BCartPage.Utilities.ExtendReport"></listener>
+ </listeners>-->
+
+
+ 
+   <test name="cartTest">
+  <parameter name="browser" value="edge"></parameter>
+      <classes>
+        <!--<class name="EMIMallB2BCartPage.TestCases.TC_001_PDPLogin"></class>-->
+        <!--<class name="EMIMallB2BCartPage.TestCases.TC_002_AddToCart"></class>-->
+       <!-- <class name="EMIMallB2BCartPage.TestCases.TC_003_CartPageHeader"></class>-->
+       <!--<class name="EMIMallB2BCartPage.TestCases.TC_004_MyShoppingCartSection"></class>-->
+       <!--<class name="EMIMallB2BCartPage.TestCases.TC_005_MyProductCartSection"></class>-->
+       <!--<class name="EMIMallB2BCartPage.TestCases.TC_006_CheckYourEmiEligibility"></class>-->
+       <class name="EMIMallB2BCartPage.TestCases.TC_007_AABannerAndCrossSellBanner"></class>
+      </classes>
+   </test>
+
+</suite>
